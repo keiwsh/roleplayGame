@@ -18,6 +18,15 @@ const monsterStats = document.querySelector("#monsterStats");
 const monsterName = document.querySelector("#monsterName");
 const monsterHealthText = document.querySelector("#monsterHealth");
 
+const locations = [
+    {
+      name: "town square"
+    }
+  ];
+
+function update(location) {
+
+}
 
 function goTown() {
     button1.innerText = "Go to store";
